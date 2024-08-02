@@ -1,0 +1,150 @@
+/* first  */
+
+/* index.css */
+
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #cdebc0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+div > h2 {
+  margin : 10px 0px 0px 50px;
+}
+
+ul {
+  padding: 0;
+}
+
+.parent{
+  margin: 0px 150px 10px 40px ;
+  position: relative;
+}
+
+#child{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+}
+
+ul li {
+  list-style-type: none;
+  margin: 0px 20px 10px 20px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+input[type="text"], input[type="email"], select {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 15px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form button {
+  background-color: #28a745;
+}
+
+form button:hover {
+  background-color: #218838;
+}
+
+/* Add Employee Page */
+.add-employee-container {
+  margin: 30px 20px 0px 100px; /* Add left and right margins */
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-employee-container > h2{
+  margin-bottom: 20px;
+}
+
+.required {
+  color: red;
+  font-size: 16px;
+  margin-left: 4px;
+}
+
+
+
+div > p{
+  margin: 15px 0px 0px 50px;
+}
+
+div > ul > li > a{
+  text-align: center ;
+  margin: auto;
+}
