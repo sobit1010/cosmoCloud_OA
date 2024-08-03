@@ -6,7 +6,7 @@ Install Dependencies
 -->>  For Frontend - cd employee-crud   then   npm i
 
 
- Add Env Variables
+ Create .env file in home folder and add Env Variables
 
    PORT , 
    DB_URI
