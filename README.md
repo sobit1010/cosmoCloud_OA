@@ -10,3 +10,11 @@ Install Dependencies
 
    PORT , 
    DB_URI
+
+
+To run the code :
+
+     -->> In home folder : npm run dev or npm run start
+     -->> In home forlder : cd employee-crud 
+                         then : npm start
+     
